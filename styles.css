@@ -1,0 +1,73 @@
+#Overall{
+    display:grid;
+    grid-template-areas:"head head"
+                         "sidebar mainContent";
+                         grid-gap: 30px;
+    }
+    #Overall>.mainContent{
+        grid-area: mainContent;
+    }
+    hr{
+    border-top: 2px solid black;
+    
+    }
+    img{
+        border-radius: 50px;
+    }
+    #Overall>.header{
+    color: white;
+    background-color: blue;
+    border: 2px solid green;
+    display:flex;
+    justify-content: center;
+      flex-direction: column;
+      text-align:center;
+      grid-area:head;
+    }
+    hr.Body{
+        border-top: 2px solid grey;
+    }
+    
+    
+    #Overall>.sidebar{
+        grid-area:sidebar;
+        background-color: darkgray;
+    }
+    div.Container1{
+    display:flex;
+    flex-direction: row;
+    }
+    p.year{
+        font-weight:bold;
+    }
+    div.Container2{
+        display:flex;
+        flex-direction: row;
+        }
+    div.Container3{
+        display:flex;
+        flex-direction: row;
+    
+            }
+    div.Container4{
+      display:flex;
+      flex-direction: row;
+                    }        
+    #WK,#Ed{
+    text-transform:uppercase;
+    }
+    p.Education{
+        font-weight:bold;
+    }
+    div.Container1 div{
+        padding:20px;
+    }
+    div.Container2 div{
+        padding:20px;
+    }
+    div.Container3 div{
+        padding:20px;
+    }
+    div.Container4 div{
+        padding:20px;
+    }
